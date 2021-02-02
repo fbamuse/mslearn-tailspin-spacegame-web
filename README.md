@@ -1,4 +1,5 @@
-[![Build Status](https://dev.azure.com/fukuharamasanori/SpaceGame/_apis/build/status/fbamuse.mslearn-tailspin-spacegame-web?branchName=uild-pipeline)](https://dev.azure.com/fukuharamasanori/SpaceGame/_build/latest?definitionId=1&branchName=uild-pipeline)
+[![Build Status](https://dev.azure.com/fukuharamasanori/SpaceGame/_apis/build/status/fbamuse.mslearn-tailspin-spacegame-web?branchName=uild-pipeline)]
+
 
 # Contributing
 
