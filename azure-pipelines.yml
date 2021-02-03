@@ -32,6 +32,7 @@ steps:
   displayName: 'Write build info'
   workingDirectory: $(wwwrootDir)
 
+  
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
   inputs:
@@ -53,7 +54,7 @@ steps:
     publishWebProjects: false
     arguments: '--no-build --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(buildConfiguration)'
     zipAfterPublish: true
-    
+
 - task: WhiteSource Bolt@20
   displayName: 'Run WhiteSource Bolt'
 
