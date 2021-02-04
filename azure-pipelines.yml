@@ -56,9 +56,9 @@ steps:
     zipAfterPublish: true
 
 - task: WhiteSource@21
-  displayName: 'Run WhiteSource Bolt'
-
-
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
+    projectName: New_Project_Name
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
